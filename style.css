@@ -103,6 +103,7 @@ body {
 
   .mother4 >div {
       border:solid 2px red;
+
   }
 
   .mother4  img {
@@ -117,3 +118,54 @@ body {
     text-align: center;
   }
   
+
+
+  .mother5 {
+    border:solid 2px blue;
+    /* height: 400px; */
+    display: flex;
+    gap:10px;
+    overflow: scroll;
+
+  }
+
+  .mother5 >div {
+      border:solid 2px red;
+      width: 28%;
+      flex-shrink: 0
+  }
+
+  .mother5  img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .mother5 > div > div {
+    background-color: rgb(127, 255, 127);
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .mother6 {
+    width: 100%;
+    border:solid 2px purple;
+    height: 600px;
+    background-image: url("https://img.freepik.com/photos-premium/groupe-adorables-chats-blottis-ensemble-dans-fort-douillet_986714-1126.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mother6 > div {
+    font-size: 60px;
+    color: orange;
+  }
+  .mother6 > p {
+    font-size: 30px;
+    color: white;
+  }
